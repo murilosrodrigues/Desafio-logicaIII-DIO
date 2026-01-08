@@ -1,4 +1,4 @@
-class Guerreiro{
+class heroi{
     constructor(nome, idade, tipo){
         this.nome = nome
         this.idade = idade
@@ -23,6 +23,6 @@ class Guerreiro{
 }
 
 
-let char = new Guerreiro("Rookie",28,"mago")
+let char = new heroi("Rookie",28,"mago")
 let mensagem = char.atacar()
 console.log(mensagem)
